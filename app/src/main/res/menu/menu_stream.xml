@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.c13.devin.moodfeedandroid.Activities.StreamActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/action_refresh" />
+</menu>

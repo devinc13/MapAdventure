@@ -1,9 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/mapFragment"
-    class="com.c13.devin.moodfeedandroid.MySupportMapFragment"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentBottom="true"
-    android:layout_below="@+id/buttonBar" />
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#F0AD4E"
+        android:text="@string/start_mood_feed"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
+

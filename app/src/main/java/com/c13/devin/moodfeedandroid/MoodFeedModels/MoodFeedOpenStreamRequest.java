@@ -1,4 +1,4 @@
-package com.c13.devin.moodfeedandroid;
+package com.c13.devin.moodfeedandroid.MoodFeedModels;
 
 public class MoodFeedOpenStreamRequest {
     double[] ne;
