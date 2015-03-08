@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MapAdventure.iml" filepath="$PROJECT_DIR$/MapAdventure.iml" />
       <module fileurl="file://$PROJECT_DIR$/MapAdventure2.iml" filepath="$PROJECT_DIR$/MapAdventure2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MoodFeedAndroid.iml" filepath="$PROJECT_DIR$/MoodFeedAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

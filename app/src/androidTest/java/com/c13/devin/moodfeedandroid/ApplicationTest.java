@@ -1,4 +1,4 @@
-package com.c13.devin.mapadventure;
+package com.c13.devin.moodfeedandroid;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

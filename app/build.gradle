@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20"
 
     defaultConfig {
-        applicationId "com.c13.devin.mapadventure"
+        applicationId "com.c13.devin.moodfeedandroid"
         minSdkVersion 16
         targetSdkVersion 20
         versionCode 1
@@ -13,7 +13,7 @@ android {
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -22,4 +22,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.google.android.gms:play-services:6.1.11'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.netflix.rxjava:rxjava-android:0.20.0-RC4'
 }
